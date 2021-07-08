@@ -59,7 +59,7 @@ span:hover{
     background-color: gray;
     color:rgb(235, 228, 35);
 }
-#h2{
+.h2{
     font-size: 40px;
     margin-left:30px;
 }
@@ -77,4 +77,17 @@ span:hover{
 .half2 img{
     width:100%;
     height:100%;
+}
+#div{
+    text-align: center;
+    background-color: black;
+    color:honeydew;
+    padding:20px;
+}
+.div{
+    border:5px solid rgb(222, 228, 222);
+    margin:10px;
+    padding:20px;
+    width:30%;
+    background-color: gray;
 }
