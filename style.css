@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+}
+.h1{
+    text-align: center;
+    background-color: gray;
+    color:white;
+    font-size:80px;
+    margin:0px;
+    padding:20px;
+    text-transform: capitalize;
+}
+.h1:hover{
+    color: tomato;
+}
+h4{
+    font-size:60px;
+    margin-bottom:0px;
+}
+h2{
+    font-size:40px;
+}
+h2:hover{
+    color:red;
+}
+p{
+    font-size:20px;
+    text-align: justify;
+    word-spacing: 0px;
+}
+
+section{
+    display: flex;
+    margin-bottom: 40px;
+}
+#section2{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half{
+    width:50%;
+    margin:30px;
+}
+.half img{
+    width:70%;
+}
+.a{
+    text-decoration: none;
+    background-color: palevioletred;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: pink;
+    color:blue;
+}
+span:hover{
+    background-color: gray;
+    color:rgb(235, 228, 35);
+}
+#h2{
+    font-size: 40px;
+    margin-left:30px;
+}
+.half2{
+    box-shadow:10px 10px 20px gray;
+    margin-left:30px;
+    padding:20px;
+    border-radius:15px;
+    width:22%;
+    margin:10px;
+}
+.half3{
+    height:50%;
+}
+.half2 img{
+    width:100%;
+    height:100%;
+}
