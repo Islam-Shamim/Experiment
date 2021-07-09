@@ -31,7 +31,10 @@ p{
     text-align: justify;
     word-spacing: 0px;
 }
-
+#p{
+    text-align: center;
+    font-size: 30px;
+}
 section{
     display: flex;
     margin-bottom: 40px;
