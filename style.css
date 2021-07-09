@@ -71,6 +71,10 @@ span:hover{
     width:22%;
     margin:10px;
 }
+.half2:hover{
+    color:white;
+    background-color: grey;
+}
 .half3{
     height:50%;
 }
@@ -90,4 +94,11 @@ span:hover{
     padding:20px;
     width:30%;
     background-color: gray;
+}
+.div:hover{
+    background-color: lavender;
+    color:rgb(238, 124, 18);
+}
+h3:hover{
+    color:rgb(230, 19, 57);
 }
