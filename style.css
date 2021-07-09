@@ -35,6 +35,9 @@ p{
     text-align: center;
     font-size: 30px;
 }
+#p i{
+    padding:10px;
+}
 section{
     display: flex;
     margin-bottom: 40px;
