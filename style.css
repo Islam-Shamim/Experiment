@@ -1,6 +1,24 @@
 body{
     margin:0px;
 }
+header{
+    margin:0;
+}
+nav a{
+    text-decoration: none;
+    margin: 40px 40px 0px 10px;
+    font-size:20px;
+    padding-top:20px;
+    
+}
+
+nav{
+    display : flex;
+    justify-content: space-between;
+}
+.container{
+    color: gray;
+}
 .h1{
     text-align: center;
     background-color: gray;
@@ -64,7 +82,7 @@ a:hover{
     background-color: pink;
     color:blue;
 }
-span:hover{
+.span:hover{
     background-color: gray;
     color:rgb(235, 228, 35);
 }
@@ -73,12 +91,15 @@ span:hover{
     margin-left:30px;
 }
 .half2{
+    display: block;
+    flex-wrap: wrap;
     box-shadow:10px 10px 20px gray;
     margin-left:30px;
     padding:20px;
     border-radius:15px;
     width:22%;
     margin:10px;
+    overflow-y: scroll;
 }
 .half2:hover{
     color:white;
